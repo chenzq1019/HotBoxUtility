@@ -15,4 +15,6 @@
 + (UIImage *)makeImageWithView:(UIView *)view;
 
 + (UIImage *)imageWithColor:(UIColor *)color;
+
++ (void) GetGifImages:(CFURLRef) url timeArray: (NSMutableArray *)timeArray imageArray:(NSMutableArray *)imageArray width:(CGFloat *) width height:(CGFloat *) height totalTime:(CGFloat *)totalTime;
 @end
